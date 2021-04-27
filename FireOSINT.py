@@ -17,11 +17,6 @@ def style():
     clear()
     print('='*60+'\n'+' '*25+'FireOSINT'+'\n'+'='*60+'\n')
 
-print('Checking dependencies...')
-time.sleep(0.2)
-print('--> Requests (#pip install requests)')
-time.sleep(0.5)
-
 def ValidRun():
     lockSelect = 0
     for f in range(len(findSname)):
